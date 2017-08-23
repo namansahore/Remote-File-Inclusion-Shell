@@ -23,7 +23,7 @@
 		perform LFI by uploading shell script on a
 		vulnerable server.
 
-	Comment for more information.
+		Comment for more information.
 */
 ?>
 <body style="background-color:rgb(200,200,200);">
