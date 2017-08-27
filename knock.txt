@@ -27,7 +27,7 @@
 */
 ?>
 <body style="background-color:rgb(200,200,200);">
-	<form action="<?php echo "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"?>" method="POST">
+	<form action="<?php $link = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"; echo "{$link}"?>" method="POST">
 	<center>
 		<strong>
 		</br>
